@@ -129,17 +129,70 @@ div.bookset {
 }
 
 img.books {
-  width: 25%;
-  height: 55%;
-  margin-top: 3%;
+  width: 45%;
+  margin-top: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+div.iconset {
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+img.icon-js {
+  width: 10%;
+  height: auto;
   margin-left: 3%;
   margin-right: 3%;
 }
 
-img.icons {
-  width: 15%;
+img.icon-html {
+  width: 10%;
   height: auto;
-  margin-top: 3%;
   margin-left: 3%;
   margin-right: 3%;
+}
+
+img.icon-css {
+  width: 8%;
+  height: auto;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+img.icon-react {
+  width: 15%;
+  height: auto;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+img.icon-node {
+  width: 25%;
+  height: auto;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+img.icon-contact {
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 5%;
+}
+
+div.school-frame {
+  text-align: center;
+}
+
+img.school-logo {
+  width: 25%;
+  margin-top: 5%;
+}
+
+img.exp-pic {
+  width: 25%;
+  margin-top: 5%;
+}
+
+div.contactset {
+  margin-left: 43%;
 }
