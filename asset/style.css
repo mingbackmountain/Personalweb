@@ -1,3 +1,4 @@
+/*global scope*/
 body {
   margin: 0;
   font-family: "Roboto Mono", monospace;
@@ -8,7 +9,7 @@ a {
   text-decoration: none;
   color: black;
 }
-
+/*navigation bar*/
 div.nav {
   display: flex;
   flex-direction: row;
@@ -58,6 +59,7 @@ div.nav-item > a:hover::before {
   transform: scaleX(1);
 }
 
+/*Profile picture*/
 img.profile {
   width: 80%;
   height: auto;
@@ -67,11 +69,12 @@ img.profile {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
+/*Cover card*/
 div.cover-card {
   display: flex;
   justify-content: center;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 8px;
   width: 90vw;
   margin-left: 5vw;
   margin-right: 5vw;
@@ -80,11 +83,12 @@ div.cover-card {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
+/*Container*/
 div.container {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
-  margin-left: 5%;
+  margin-left: 2%;
 }
 
 div.container-edu {
@@ -97,6 +101,7 @@ div.container-edu {
   margin-right: 5%;
 }
 
+/*grid system*/
 div.col-4 {
   width: 33.33%;
 }
@@ -118,13 +123,7 @@ div.col-12 {
   width: 100%;
 }
 
-div.card-exp {
-  background-color: #f1f1f1;
-  border-radius: 10px;
-  margin-bottom: 3%;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-}
-
+/*Cards*/
 div.card-profile {
   background-color: #f1f1f1;
   border-radius: 10px;
@@ -171,6 +170,7 @@ div.card p {
   padding-bottom: 3%;
 }
 
+/*text modifier*/
 .text-center {
   text-align: center;
 }
@@ -187,19 +187,7 @@ div.profile-name {
   margin-top: 8%;
 }
 
-div.bookset {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 3%;
-}
-
-img.books {
-  width: 350px;
-  height: 450px;
-  margin-top: 1%;
-  margin-left: 3%;
-  margin-right: 3%;
-}
+/*skill icons*/
 div.iconset {
   margin-top: 0.5%;
   margin-bottom: 0.5%;
@@ -246,6 +234,7 @@ img.icon-contact {
   width: 5%;
 }
 
+/*schools*/
 div.school-frame {
   text-align: center;
 }
@@ -262,54 +251,8 @@ img.school-logo2 {
   margin-top: 5%;
 }
 
-img.exp-pic-jwc {
-  width: 85%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-img.exp-pic-start {
-  width: 95%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-img.exp-pic-line {
-  width: 95%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
 div.contactset {
   margin-left: 43%;
-}
-
-h2.exp1 {
-  margin-top: 10%;
-  margin-bottom: 2%;
-  margin-left: 2%;
-  margin-right: 2%;
-}
-
-h2.exp2 {
-  margin-top: 8%;
-  margin-bottom: 2%;
-  margin-left: 12%;
-  margin-right: 2%;
-}
-
-h2.exp3 {
-  margin-top: 10%;
-  margin-bottom: 2%;
-  margin-left: 25%;
-  margin-right: 2%;
-}
-
-h2.exp4 {
-  margin-top: 13%;
-  margin-bottom: 2%;
-  margin-left: 18%;
-  margin-right: 2%;
 }
 
 /**Table**/
@@ -352,5 +295,3 @@ td {
   color: #fff;
   border-bottom: solid 1px rgba(255, 255, 255, 0.1);
 }
-
-/*page transition*/
